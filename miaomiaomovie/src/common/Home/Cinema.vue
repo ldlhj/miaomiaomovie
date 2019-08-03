@@ -1,10 +1,20 @@
 <template>
-    <div>这是一个影院</div>
+    <div>
+      <Header></Header>
+      这是一个影院
+      <tobbar></tobbar>
+    </div>
 </template>
 
 <script>
+import Header from '@/publicComponents/Header.vue'
+import tobbar from '@/publicComponents/tobbar.vue'
 export default {
-  name: 'cinema'
+  name: 'cinema',
+  components: {
+    Header,
+    tobbar
+  }
 }
 </script>
 

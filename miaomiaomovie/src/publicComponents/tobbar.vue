@@ -27,25 +27,29 @@ export default {
   #footer
     width :100%;
     border :1px solid #ccc;
-    height :3.3rem;
+    height :3.4rem;
     position :absolute;
-    bottom:0;
+    bottom:0rem;
     border-bottom :none;
     border-left :none;
+    background-color :white
+    z-index :999;
     ul
       padding :0;
-      margin :0.2rem 0 0 0;
+      margin-top:0rem;
+      /*border :1px solid red;*/
+      height :3rem;
       display :flex;
       justify-content :space-around;
-      /*line-height :3.2rem;*/
       li
         list-style:none;
-        /*line-height :3.2rem;*/
-        /*border :1px solid red;*/
-        p
-          margin :0;
-          text-align :center;
-          font-size :1rem;
-        i
-          font-size :1.3rem;
+      .router-link-active
+        color :red;
+      p
+        margin :0;
+        padding :0;
+        text-align :center;
+        font-size :1rem;
+      i
+        font-size :1.3rem;
 </style>

@@ -12,12 +12,12 @@ export default {
 
 <style lang="stylus" scoped>
 #header
-  height :2.5rem;
+  height :3rem;
   background-color :red;
   h1
     margin-top :0;
     padding :0;
-    font-size :1.5rem;
+    font-size :1.7rem;
     text-align :center;
-    line-height :2.5rem;
+    line-height :3rem;
 </style>
